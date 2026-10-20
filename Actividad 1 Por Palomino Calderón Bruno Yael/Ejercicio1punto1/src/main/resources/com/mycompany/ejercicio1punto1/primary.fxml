@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="CENTER" spacing="15.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.ejercicio1punto1.PrimaryController">
+   <children>
+      <Label text="Fecha de nacimiento dd/mm/aaaa" />
+      <TextField fx:id="txtFecha"  />
+      <Button text="Calcular" onAction="#btnCalcular_click" />
+      <Button text="Limpiar" onAction="#btnLimpiar_click" />
+      <Label fx:id="lblResultado" />
+   </children>
+</VBox>
